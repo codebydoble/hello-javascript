@@ -38,7 +38,7 @@ let ageStatus
 age >= 18 ? (ageStatus = "Adulto") : (ageStatus = "Menor")
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
-let mes = "Abril"
+let mes = "April"
 if (mes === "March" || mes === "April" || mes === "May") {
   console.log(`Month: ${mes}, Season: Spring.`)
 } else if (mes === "June" || mes === "July" || mes === "August") {
