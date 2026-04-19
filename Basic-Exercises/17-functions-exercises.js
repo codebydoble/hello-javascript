@@ -182,7 +182,7 @@ console.log("\n=== Challenge 9 ===")
  * @returns {String} Devuelve la misma cadena con las palabras en orden inverso.
  */
 const reverseText = function (sentence) {
-  return sentence.split(" ").toReversed()
+  return sentence.split(" ").toReversed().join(" ")
 }
 
 let iaText =
