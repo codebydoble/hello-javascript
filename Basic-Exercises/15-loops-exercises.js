@@ -91,6 +91,14 @@ let resultEx8 = textEx8.split("").toReversed().join("")
 console.log(">>>Inverted text", resultEx8)
 
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+const fibonacci = []
+let a = 0,
+  b = 1
+for (let i = 0; i < 10; i++) {
+  fibonacci.push(a)
+  ;[a, b] = [b, a + b] // destructuring swap
+}
+// [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] ✓
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
 console.log("\n=== Challenge 10 - foreach method- ===")

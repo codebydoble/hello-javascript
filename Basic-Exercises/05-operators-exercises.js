@@ -16,14 +16,14 @@ let moduleProduct = 300 % 3
 // 2. Crea una variable para cada tipo de operación de asignación,
 //    que haga uso de las variables utilizadas para las operaciones aritméticas
 
-let mySum,
-  myRest,
-  myMultp,
-  myDiv,
-  myModule,
+let mySum = 5,
+  myRest = 100,
+  myMultp = 5,
+  myDiv = 40,
+  myModule = 7,
   myDupl = 400
 
-mySum *= 10
+mySum += 10
 myRest -= 2
 myMultp *= 65
 myDiv /= 20
