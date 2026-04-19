@@ -29,11 +29,13 @@ const numbers = [10, 9, 87, 54, 0, -999, 86, 24, 22, 3]
  */
 const maxNumber = function (array) {
   let maximun = -Infinity
-  for (const aNumber of numbers) {
+  for (const aNumber of array) {
     if (aNumber > maximun) {
       maximun = aNumber
     }
   }
+  /* Alternative ellegant */
+  //const maxNumber = (array) => Math.max(...array)
   return maximun
 }
 console.log(">>>Max", maxNumber(numbers))
