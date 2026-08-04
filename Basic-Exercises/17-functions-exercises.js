@@ -196,10 +196,10 @@ console.log("\n=== Challenge 10 ===")
  * @returns {number} El factorial del número.
  */
 const factorial = (aNumber) => {
-  if (aNumber === 0) {
+  if (aNumber <= 1) {
     return 1
   } else {
-    return factorial(aNumber - 1) * aNumber
+    return aNumber * factorial(aNumber - 1)
   }
 }
 
