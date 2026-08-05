@@ -27,7 +27,7 @@ const numbers = [10, 9, 87, 54, 0, -999, 86, 24, 22, 3]
  * @param {Array} array any number array.
  * @returns {Number} devuelve el mayor de todos los numeros de array.
  */
-const maxNumber = function (array) {
+export const maxNumber = function (array) {
   let maximun = -Infinity
   for (const aNumber of array) {
     if (aNumber > maximun) {
