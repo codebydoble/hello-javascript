@@ -6,7 +6,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
 // if/else/else if/ternaria
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
-const userName = "Yoandy"
+export const userName = "Yoandy"
 if (userName === "Yoandy") {
   console.log("Yoandy")
 }

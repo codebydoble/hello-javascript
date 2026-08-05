@@ -108,3 +108,7 @@ hugeValue = 9999999999999999n
 symbolCBD = Symbol("FCC")
 */
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
+
+export default function greetings(myName) {
+  return "Hello" + myName
+}

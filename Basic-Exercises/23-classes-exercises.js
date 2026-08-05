@@ -85,7 +85,7 @@ console.log(">>>Función estática -> weight:", Plane.weightPlane(boeing.maxPass
 
 // 6. Crea una clase que haga uso de herencia
 console.log("\n=== Challenge 6 ===")
-class Laptop {
+export class Laptop {
   #condition
   /**
    * Class Laptop, tech tecnology.
